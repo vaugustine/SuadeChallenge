@@ -15,6 +15,9 @@ The commands below installs the application and its dependencies:
     $ python3 -m venv venv
     $ source venv/bin/activate
     (venv) pip install -r requirements.txt
+    
+cairo, Pango and GDK-PixBuf need to be installed separately. See platform-specific instructions to install these packages @
+http://weasyprint.readthedocs.io/en/latest/install.html
 
 Run application
 ---------------
